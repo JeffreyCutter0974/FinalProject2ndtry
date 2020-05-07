@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: lightsteelblue;
+}
+
+header{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+#parentsection 
+{	
+	width: calc(150% -10px);
+	height: calc(200% -10px);
+	background-color: lightslategray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+#parentsection img{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+	margin: auto;
+}
+
+#parent{	
+	width: calc(150% -10px);
+	height: calc(200% -10px);
+	background-color: lightslategray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+h2 img{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+	margin: auto;
+}
+
+h2{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background-color: lightslategray;
+}
+
+#news img{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+	margin: auto;
+}
+
+#sports img{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+	margin: auto;
+}
+
+#weather img{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+	margin: auto;
+}
+
+#contact img{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+	margin: auto;
+}
+
+figure, figcaption{
+    margin: 0;
+    padding: 0;
+}
+
+figure{
+    border: 1px solid black;
+    width: 750px;
+    padding: 15px;
+    background-color: lightslategray;
+    box-shadow: lightgray;
+    box-sizing: border-box;
+}
+
+figcaption{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+
+table{
+    border-collapse: collapse;
+    width: 600px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+th:first-child, td:first-child{
+    text-align: center;
+}
+
+th:nth-child(2), td:nth-child(2){
+    text-align: center;
+}
+
+footer{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+fieldset{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 4px;
+    }
+    legend{
+    font-weight: bold;
+    font-size: 80%;
+    margin-bottom: 5px;
+    }
+    label,input,select{
+    font-size: 60%;
+    }
+    label{
+    float: left;
+    width: 13em;
+    text-align: right;
+    }
+    input,select{
+    width:16em ;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    }
+    input:required, input[required]{
+    border: 3px solid red;
+    }
+    input:valid{
+    border: 3px solid black;
+    }
+    input:invalid{
+    box-shadow: none;
+    }
+    br{
+    clear: both;
+    }
+    #buttons input{
+    width:10em;
+    }
+
+
+
+@media screen and (min-width: 768px) {
+	header, footer {
+		height: calc(10vh -10px);
+	}
+
+	#parentSection {
+		width: calc(80% -10px);
+		height: calc(100% -10px);
+		}
+}

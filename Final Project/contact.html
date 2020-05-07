@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css" link>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>INF-250 News 
+         <nav><a href="index.html" target="_blank">Home Page</a>
+              <a href="news.html" target="_blank"> News Page</a>
+              <a href="sports.html" target="_blank"> Sports Page</a>
+              <a href="weather.html" target="_blank"> Weather Forecast</a>
+              <a href="contact.html" target="_blank"> Contact Us</a>
+         </nav>
+        </h1>
+     </header>
+     <h2 id="parent">
+
+    <form action="https://rest-api-ex.herokuapp.com/all" method="post" id=" https://rest-api-ex.herokuapp.com/all">
+        <fieldset>
+            <legend>Contact Us</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" autofocus required> <br>
+            <lable for="verify email">Verify Email:</lable> 
+            <input type="email" name="verify" id="verify" required><br>
+            <lable for="text">Text Box:</lable>
+            <input type="text" name="text" id="text" required><br>
+            <label>&nbsp;</label>
+            <input type="submit" id="submit" value="Submit">
+            <inpit type="reset" id="reset" value="Reset Feilds"><br>
+     </h2>
+    
+</body>
+<footer>Jeffrey Cutter  &copy;2020</footer>
+</html>
